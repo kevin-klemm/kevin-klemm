@@ -8,7 +8,7 @@ cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
 - 📜 Six US patents in camera technology
 - 🎓 B.S. Computer Science, University of Illinois at Chicago
 
-## 💻 My favorite tools and technologies
+## 💻 Familiar tools and technologies
 
 <!-- skills:start -->
 <!-- Generated from skills.toml by `uv run python -m readme_gen`. Do not edit. -->
