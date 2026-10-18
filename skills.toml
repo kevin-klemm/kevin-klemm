@@ -1,0 +1,71 @@
+# Skills shown in the "Familiar tools and technologies" table of README.md.
+#
+# Each group starts a new table row. Every skill names the icon source it is
+# drawn from:
+#   skill-icons   a ready-made tile from tandpfun/skill-icons (`ref` = file stem)
+#   simple-icons  a Simple Icons glyph placed on a dark tile (`ref` = slug,
+#                 `color` = brand hex; lightened to 4.5:1 contrast if too dark)
+#   aws-icons     an AWS Architecture icon clipped to a rounded tile
+#                 (`ref` = path under icons/ in the aws-icons package)
+#   monogram      short text on a dark tile, for tools without a logo
+#
+# Regenerate with `uv run python -m readme_gen` after editing.
+
+[sources]
+skill-icons = "7f7e691e71aec64e8354bf697835e009d1ad80f8"
+simple-icons = "13.21.0"
+aws-icons = "3.3.0"
+
+[layout]
+columns = 8
+
+[[groups]]
+name = "Languages"
+skills = [
+  { name = "C", kind = "skill-icons", ref = "C" },
+  { name = "C++", kind = "skill-icons", ref = "CPP" },
+  { name = "Conan", kind = "simple-icons", ref = "conan", color = "#6699CB" },
+  { name = "Python", kind = "skill-icons", ref = "Python-Dark" },
+  { name = "Linux", kind = "skill-icons", ref = "Linux-Dark" },
+  { name = "SQL", kind = "monogram", text = "SQL", color = "#4479A1" },
+  { name = "YAML", kind = "simple-icons", ref = "yaml", color = "#CB171E" },
+]
+
+[[groups]]
+name = "Software"
+skills = [
+  { name = "CMake", kind = "skill-icons", ref = "CMake-Dark" },
+  { name = "Docker", kind = "skill-icons", ref = "Docker" },
+  { name = "MkDocs", kind = "simple-icons", ref = "materialformkdocs", color = "#526CFE" },
+  { name = "Mermaid", kind = "simple-icons", ref = "mermaid", color = "#FF3670" },
+  { name = "PlantUML", kind = "monogram", text = "UML", color = "#FBB33C" },
+  { name = "Wireshark", kind = "simple-icons", ref = "wireshark", color = "#1679A7" },
+  { name = "GDB", kind = "simple-icons", ref = "gnu", color = "#A42E2B" },
+  { name = "Claude Code", kind = "simple-icons", ref = "claude", color = "#D97757" },
+]
+
+[[groups]]
+name = "Libraries"
+skills = [
+  { name = "OpenSSL", kind = "monogram", text = "SSL", color = "#721412" },
+  { name = "WebRTC", kind = "simple-icons", ref = "webrtc", color = "#333333" },
+  { name = "Protobuf", kind = "monogram", text = "PB", color = "#4285F4" },
+  { name = "Boost", kind = "simple-icons", ref = "boost", color = "#F7901E" },
+  { name = "gtest", kind = "monogram", text = "gtest", color = "#34A853" },
+  { name = "gcov", kind = "monogram", text = "gcov", color = "#A42E2B" },
+  { name = "ASan", kind = "simple-icons", ref = "llvm", color = "#262D3A" },
+  { name = "Valgrind", kind = "monogram", text = "Vg", color = "#C2185B" },
+]
+
+[[groups]]
+name = "Services"
+skills = [
+  { name = "AWS Athena", kind = "aws-icons", ref = "architecture-service/AmazonAthena" },
+  { name = "AWS KVS", kind = "aws-icons", ref = "architecture-service/AmazonKinesisVideoStreams" },
+  { name = "AWS S3", kind = "aws-icons", ref = "architecture-service/AmazonSimpleStorageService" },
+  { name = "Artifactory", kind = "simple-icons", ref = "jfrog", color = "#40BE46" },
+  { name = "Grafana", kind = "skill-icons", ref = "Grafana-Dark" },
+  { name = "GitHub Actions", kind = "skill-icons", ref = "GithubActions-Dark" },
+  { name = "Concourse", kind = "simple-icons", ref = "concourse", color = "#3398DC" },
+  { name = "GoCD", kind = "simple-icons", ref = "gocd", color = "#94399E" },
+]
