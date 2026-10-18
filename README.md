@@ -23,7 +23,13 @@ cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
       <img src="icons/cpp.svg" width="48" height="48" alt="C++" title="C++" /><br />C++
     </td>
     <td align="center">
+      <img src="icons/conan.svg" width="48" height="48" alt="Conan" title="Conan" /><br />Conan
+    </td>
+    <td align="center">
       <img src="icons/python.svg" width="48" height="48" alt="Python" title="Python" /><br />Python
+    </td>
+    <td align="center">
+      <img src="icons/linux.svg" width="48" height="48" alt="Linux" title="Linux" /><br />Linux
     </td>
     <td align="center">
       <img src="icons/sql.svg" width="48" height="48" alt="SQL" title="SQL" /><br />SQL
@@ -31,17 +37,8 @@ cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
     <td align="center">
       <img src="icons/yaml.svg" width="48" height="48" alt="YAML" title="YAML" /><br />YAML
     </td>
-    <td align="center">
-      <img src="icons/mermaid.svg" width="48" height="48" alt="Mermaid" title="Mermaid" /><br />Mermaid
-    </td>
-    <td align="center">
-      <img src="icons/plantuml.svg" width="48" height="48" alt="PlantUML" title="PlantUML" /><br />PlantUML
-    </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="icons/conan.svg" width="48" height="48" alt="Conan" title="Conan" /><br />Conan
-    </td>
     <td align="center">
       <img src="icons/cmake.svg" width="48" height="48" alt="CMake" title="CMake" /><br />CMake
     </td>
@@ -52,13 +49,16 @@ cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
       <img src="icons/mkdocs.svg" width="48" height="48" alt="MkDocs" title="MkDocs" /><br />MkDocs
     </td>
     <td align="center">
+      <img src="icons/mermaid.svg" width="48" height="48" alt="Mermaid" title="Mermaid" /><br />Mermaid
+    </td>
+    <td align="center">
+      <img src="icons/plantuml.svg" width="48" height="48" alt="PlantUML" title="PlantUML" /><br />PlantUML
+    </td>
+    <td align="center">
       <img src="icons/wireshark.svg" width="48" height="48" alt="Wireshark" title="Wireshark" /><br />Wireshark
     </td>
     <td align="center">
       <img src="icons/gdb.svg" width="48" height="48" alt="GDB" title="GDB" /><br />GDB
-    </td>
-    <td align="center">
-      <img src="icons/perf.svg" width="48" height="48" alt="perf" title="perf" /><br />perf
     </td>
     <td align="center">
       <img src="icons/claude-code.svg" width="48" height="48" alt="Claude Code" title="Claude Code" /><br />Claude Code

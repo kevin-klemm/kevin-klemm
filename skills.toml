@@ -24,23 +24,23 @@ name = "Languages"
 skills = [
   { name = "C", kind = "skill-icons", ref = "C" },
   { name = "C++", kind = "skill-icons", ref = "CPP" },
+  { name = "Conan", kind = "simple-icons", ref = "conan", color = "#6699CB" },
   { name = "Python", kind = "skill-icons", ref = "Python-Dark" },
+  { name = "Linux", kind = "skill-icons", ref = "Linux-Dark" },
   { name = "SQL", kind = "monogram", text = "SQL", color = "#4479A1" },
   { name = "YAML", kind = "simple-icons", ref = "yaml", color = "#CB171E" },
-  { name = "Mermaid", kind = "simple-icons", ref = "mermaid", color = "#FF3670" },
-  { name = "PlantUML", kind = "monogram", text = "UML", color = "#FBB33C" },
 ]
 
 [[groups]]
 name = "Software"
 skills = [
-  { name = "Conan", kind = "simple-icons", ref = "conan", color = "#6699CB" },
   { name = "CMake", kind = "skill-icons", ref = "CMake-Dark" },
   { name = "Docker", kind = "skill-icons", ref = "Docker" },
   { name = "MkDocs", kind = "simple-icons", ref = "materialformkdocs", color = "#526CFE" },
+  { name = "Mermaid", kind = "simple-icons", ref = "mermaid", color = "#FF3670" },
+  { name = "PlantUML", kind = "monogram", text = "UML", color = "#FBB33C" },
   { name = "Wireshark", kind = "simple-icons", ref = "wireshark", color = "#1679A7" },
   { name = "GDB", kind = "simple-icons", ref = "gnu", color = "#A42E2B" },
-  { name = "perf", kind = "skill-icons", ref = "Linux-Dark" },
   { name = "Claude Code", kind = "simple-icons", ref = "claude", color = "#D97757" },
 ]
 
