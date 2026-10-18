@@ -5,8 +5,6 @@ pipelines, live monitoring features and the platform underneath them. Before tha
 years at **Motorola Solutions** working on secure, mission-critical communications: VPN and OpenSSL
 cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
 
-- 📷 Lead firmware developer for Live Guard Protection and Active Guard Outdoor Protection
-- 📦 Brought Conan package management to SimpliSafe's engineering org
 - 📜 Six US patents in camera technology
 - 🎓 B.S. Computer Science, University of Illinois at Chicago
 
