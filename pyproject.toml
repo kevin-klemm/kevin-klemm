@@ -1,0 +1,21 @@
+[project]
+name = "readme-gen"
+version = "0.1.0"
+description = "Generates the skills table and icon tiles for the kevin-klemm GitHub profile README"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
