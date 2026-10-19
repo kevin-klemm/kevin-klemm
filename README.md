@@ -1,9 +1,9 @@
 # Hi, I'm Kevin 👋
 
-Staff Firmware Engineer at **SimpliSafe**, building firmware for the camera lineup: computer vision
-pipelines, live monitoring features and the platform underneath them. Before that I spent over seven
-years at **Motorola Solutions** working on secure, mission-critical communications: VPN and OpenSSL
-cryptography, push-to-talk over LTE, and embedded MOTOTRBO radio repeaters.
+Staff Firmware Engineer building firmware for smart security cameras: computer vision pipelines,
+live monitoring features and the platform underneath them. Before that I spent over seven years
+working on secure, mission-critical communications: VPN and OpenSSL cryptography, push-to-talk over
+LTE, and embedded radio repeaters.
 
 - 📜 Six US patents in camera technology
 - 🎓 B.S. Computer Science, University of Illinois at Chicago
